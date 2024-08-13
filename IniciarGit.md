@@ -13,13 +13,13 @@ git init
 git config user.name "Estalin1412"
 git config user.email "jose.munoz.d@uni.pe"
 ```
-## Comunicación Repositorio remoto con GitHub
+### Comunicación Repositorio remoto con GitHub
 Asociamos nuestro repositorio remoto con git (El nombre origin lo puedes cambiar, pero no olvidar con que nombre se guarda)
 ```
 git remote add origin https://...
 
 ```
-### Comandos extra remote
+#### Comandos extra remote
 * Para ver que hay.
 ```
 git remote -v 
@@ -29,11 +29,20 @@ git remote -v
 ```
 git remote remove origin
 ```
-## Subir archivos
+### Subir archivos
 
 Para subir los archivos necesitramos nombre el repositorio asociado(origin) y nombre de la rema que queremos subir(master)
 ```
 git push -u origin master
+```
+## Bajar del repositorio
+Para clonar y descargar archivos del GitHub
+```
+git clone htts://...
+```
+Para que descarge un compañero
+```
+git pull origin master
 ```
 # COMANDOS
 ## Comandos en Ramas
