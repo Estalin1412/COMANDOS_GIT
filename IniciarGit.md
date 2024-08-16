@@ -71,7 +71,6 @@ git checkout master
 ```
 git diff master ramita
 ```
-*
 ## Comandos de guardado
 * Para subir cambios( el punto significa todo pero tambien puedes especificar agregando solo los nombre que quieres subir)
 ```

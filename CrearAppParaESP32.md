@@ -1,4 +1,4 @@
-# EMPEZEMOS
+# ANDROID STUDIO
 ## Descargar Android Studio
 Programa para crear aplicación en celular
 El archivo.kt es donde va la logica de programación
@@ -34,7 +34,28 @@ Para Ajustar toda la pantalla en forma horizontal
 ```
 "match_parent"
 ```
+## Asignar el brackend
+
+Asigna el variable button1 al cuadro creado en el fromt con el id buttonLayout
+```
+button1 = findViewById(R.id.buttonLayout)
+```
+Para extraer el texto
+```
+val textoExtraido = NombreVariable.text
+```
+Para extraer el texto en String
+```
+val textoExtraido: String = NombreVariable.text.toString()
+```
+### Para cambiar titulo o nombre de otro cuadro
+```
+NombreDeVariable.setText("TextoQueQuieres")
+```
 ## PARA AGREGAR OBJETOS DESDE PROGRAMA
 Plaint text: Para editar texto
 Button : Botón
 Custom: Tipo de pantalla
+
+# FIRE BASE
+
