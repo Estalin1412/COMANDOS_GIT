@@ -57,5 +57,17 @@ Plaint text: Para editar texto
 Button : Botón
 Custom: Tipo de pantalla
 
+## Para ubicacion de cuadros
+Botton: parte inferior
+Top: Parte superior
+Start: Parte inicial, la izquierda
+End: Parte final, derecha
+* Conectar parte inferior con la parte inferior de la pared
+```
+add:layout_constraintBotton_toBottonOf="parent"
+```
+
 # FIRE BASE
 
+# Activity
+Layaout: La parte visual y que está en xsml, definir como lauche significa que sea la pantalla central
