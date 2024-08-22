@@ -7,3 +7,6 @@ co2()
 cantidad de particulas(ppm)
 Ruido(db)
 Iradiancia Solar(batios por metro cuadrado)
+## Formato de aplicacion
+medicalweb.com
+apps medicas

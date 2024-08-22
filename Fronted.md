@@ -1,6 +1,6 @@
 ## Enganchar archivos
 
-* Enganch
+* Enganchar
 ```
 app:layout_constraintBottom_toBottomOf="parent"
 ```

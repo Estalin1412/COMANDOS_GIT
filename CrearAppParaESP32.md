@@ -1,4 +1,11 @@
 # ANDROID STUDIO
+# Linear Layout
+El tipo de orden que se realizará
+```
+android:orientation="vertical"
+```
+
+# Constrain Layout
 ## Descargar Android Studio
 Programa para crear aplicación en celular
 El archivo.kt es donde va la logica de programación
