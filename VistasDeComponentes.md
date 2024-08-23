@@ -25,3 +25,20 @@ app:cardBackgroundColor="@color/ColerEscogido">
 
 </androidx.cardview.widget.CardView>
 ```
+## Componente de Barra
+```
+<com.google.android.material.slider.RangeSlider
+
+>
+
+</com.google.android.material.slider.RangeSlider>
+     
+```
+## Boton Flotante
+```
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+
+>
+            
+</com.google.android.material.floatingactionbutton.FloatingActionButton>
+```
