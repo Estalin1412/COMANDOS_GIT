@@ -50,3 +50,15 @@ for ((position, value) in weekDays.withIndex){
     println("La posición $position, contiene $ value")
 }
 ```
+## Para clase sellada
+Creación de dobjetos
+```
+sealed class name{
+    object nombresnew1 : name()
+    object nombrenew2 : name()
+}
+```
+## Para 
+```
+onItemSelection(it)
+```
