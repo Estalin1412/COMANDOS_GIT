@@ -85,3 +85,6 @@ Layaout: La parte visual y que está en xsml, definir como lauche significa que 
 - Agregar un nombre ala base de datos
 - Agregar el la especificacion de donde esta com.dots.appdots(Este es un ejemplo, pero debes agregar el nombre del directorio que tienes el main.kts)
 - Ir a gradle(parte izquierda de la pantalla un elefante), luego en Execute grandle task(un cuadradito con un icono de youtbe) y agregar el siguiente comando "signingreport", estas ejecutando una tarea necesaria para hallar el numero que tienes que agregar(El numero esta en el SHA1)
+- Luego Descargar archivo jason y pegarlo en el apartado app de tu proyecto
+- Copiar y pegar las depeendencias necesarias
+- Es probable que te salga error porque algunas dependencias se repiten en especial la siguiente ("    id("com.android.application"), Bórrala
