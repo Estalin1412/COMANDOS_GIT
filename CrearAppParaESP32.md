@@ -78,3 +78,10 @@ add:layout_constraintBotton_toBottonOf="parent"
 
 # Activity
 Layaout: La parte visual y que está en xsml, definir como lauche significa que sea la pantalla central
+
+## CONEXION PARA CON FIRE BASE
+### PRIMERO CONFIGURAR PROYECTO DE FIREBASE
+- Apretar a android el celular que quieres o tienes
+- Agregar un nombre ala base de datos
+- Agregar el la especificacion de donde esta com.dots.appdots(Este es un ejemplo, pero debes agregar el nombre del directorio que tienes el main.kts)
+- Ir a gradle(parte izquierda de la pantalla un elefante), luego en Execute grandle task(un cuadradito con un icono de youtbe) y agregar el siguiente comando "signingreport", estas ejecutando una tarea necesaria para hallar el numero que tienes que agregar(El numero esta en el SHA1)
