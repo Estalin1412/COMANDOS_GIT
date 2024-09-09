@@ -88,3 +88,67 @@ Layaout: La parte visual y que está en xsml, definir como lauche significa que 
 - Luego Descargar archivo jason y pegarlo en el apartado app de tu proyecto
 - Copiar y pegar las depeendencias necesarias
 - Es probable que te salga error porque algunas dependencias se repiten en especial la siguiente ("    id("com.android.application"), Bórrala
+
+# activityLogin
+```
+}<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthodentyActivity">
+    <LinearLayout
+        android:id="@+id/lyEscribirID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        >
+    <EditText
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Email."
+
+        />
+    <EditText
+        android:id="@+id/tvPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña."
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lyOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/lyEscribirID"
+        >
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="REGISTRAR"
+            android:backgroundTint="@color/MarineBlue"
+            android:layout_marginEnd="8dp"
+            />
+        <Button
+            android:id="@+id/btnAcceder"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="ACCEDER"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/MarineBlue"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
